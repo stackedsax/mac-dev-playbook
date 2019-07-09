@@ -23,6 +23,7 @@ dotfiles_files:
   - .zshrc
 
 homebrew_installed_packages:
+  - bash
   - bash-completion
   - git
   - gpg
