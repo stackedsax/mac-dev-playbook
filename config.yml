@@ -1,0 +1,92 @@
+---
+downloads: ~/.ansible-downloads/
+
+configure_dotfiles: yes
+configure_sudoers: no
+configure_terminal: yes
+configure_osx: no
+
+dotfiles_repo: https://github.com/stackedsax/dotfiles.git
+dotfiles_repo_accept_hostkey: yes
+dotfiles_repo_local_destination: ~/dotfiles
+dotfiles_files:
+  - .ssh
+  - .bash_aliases
+  - .bash_profile
+  - .bashrc
+  - .gitconfig
+  - .nanorc
+  - .profile
+  - .screenrc
+  - .taskrc
+  - .tmux.conf
+  - .zshrc
+
+homebrew_installed_packages:
+  - bash-completion
+  - git
+  - gpg
+  - hub
+  - iperf
+  - nano
+  - rsync
+  - watch
+  - wget
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - 1password
+  - ableton-live-suite
+  - bbedit
+  - cheatsheet
+  - dropbox
+  - firefox
+  - google-backup-and-sync
+  - google-chrome
+  - iterm2
+  - handbrake
+  - shiftit
+  - slack
+  - spotify
+  - sublime-text
+  - transmit
+  - vlc
+  - xquartz
+
+# See `geerlingguy.mas` role documentation for usage instructions.
+mas_installed_apps: []
+mas_email: ""
+mas_password: ""
+
+osx_script: "~/.osx --no-restart"
+
+extra_args: "--user"
+
+# Install packages from other package managers.
+# Note: You are responsible for making sure the required package managers are
+# installed, eg. through homebrew.
+composer_packages: []
+  # - name: drush
+  #   state: present # present/absent, default: present
+  #   version: "^8.1" # default: N/A
+gem_packages: []
+  # - name: bundler
+  #   state: present # present/absent/latest, default: present
+  #   version: "~> 1.15.1" # default: N/A
+npm_packages: []
+  # - name: webpack
+  #   state: present # present/absent/latest, default: present
+  #   version: "^2.6" # default: N/A
+pip_packages:
+  - name: pipsi
+  - name: pygments
+  #   state: present # present/absent/latest, default: present
+  #   version: "0.16.3" # default: N/A
+
+# Glob pattern to ansible task files to run after all other tasks are finished.
+post_provision_tasks: []
+
