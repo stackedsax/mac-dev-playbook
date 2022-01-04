@@ -3,7 +3,7 @@ downloads: ~/.ansible-downloads/
 
 configure_dotfiles: yes
 configure_sudoers: no
-configure_terminal: yes
+configure_terminal: no
 configure_osx: no
 
 dotfiles_repo: https://github.com/stackedsax/dotfiles.git
@@ -24,15 +24,33 @@ dotfiles_files:
 
 homebrew_installed_packages:
   - bash
-  - bash-completion
+  - bash-completion@2
+  - bat
+  - cgoban
+  - dust
+  - exa
+  - fd
+  - fzf
+  - gh
   - git
   - gpg
+  - htop
   - hub
-  - iperf
+  - ipython
+  - jupyterlab
+  - k9s
+  - kind
   - nano
+  - numpy
+  - pyenv
+  - pipenv
+  - ripgrep
   - rsync
+  - tldr
+  - todoist
   - watch
   - wget
+  - wtf
 
 homebrew_taps:
   - homebrew/core
@@ -42,24 +60,43 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - 1password
   - ableton-live-suite
-  - bbedit
   - cheatsheet
-  - dropbox
-  - firefox
-  - google-backup-and-sync
+  - coconutbattery
+  - discord
+  - gitkraken
+  - gitup
   - google-chrome
-  - iterm2
+  - google-cloud-sdk
   - handbrake
-  - shiftit
+  - irccloud
+  - iterm2
+  - java
+  - julia
+  - launchcontrol
+  - macdown
+  - nativedisplaybrightness
+  - obs
+  - plex
+  - rectangle
+  - signal
+  - skype
   - slack
+  - sonos
   - spotify
   - sublime-text
-  - transmit
+  - vcv-rack
+  - visual-studio-code
   - vlc
-  - xquartz
+  - whatsapp
+  - zoom
 
 # See `geerlingguy.mas` role documentation for usage instructions.
-mas_installed_apps: []
+mas_installed_apps:
+  - { id: 722444976, name: "Anytune" }
+  - { id: 424389933, name: "Final Cut Pro" }
+  - { id: 682658836, name: "GarageBand" }
+  - { id: 409035833, name: "iReal Pro" }
+  - { id: 634148309, name: "Logic Pro" }
 mas_email: ""
 mas_password: ""
 
@@ -83,8 +120,8 @@ npm_packages: []
   #   state: present # present/absent/latest, default: present
   #   version: "^2.6" # default: N/A
 pip_packages:
-  - name: pipsi
-  - name: pygments
+  # - name: pipsi
+  # - name: pygments
   #   state: present # present/absent/latest, default: present
   #   version: "0.16.3" # default: N/A
 
