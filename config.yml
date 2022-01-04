@@ -55,11 +55,14 @@ homebrew_installed_packages:
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
+  - homebrew/autoupdate
+  - homebrew/cask-drivers
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - 1password
   - ableton-live-suite
+  - brave-browser
   - cheatsheet
   - coconutbattery
   - discord
@@ -70,7 +73,6 @@ homebrew_cask_apps:
   - handbrake
   - irccloud
   - iterm2
-  - java
   - julia
   - launchcontrol
   - macdown
