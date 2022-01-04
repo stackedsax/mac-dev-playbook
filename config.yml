@@ -48,6 +48,7 @@ homebrew_installed_packages:
   - ripgrep
   - rsync
   - tldr
+  - todoist
   - watch
   - wget
   - wtf
@@ -73,6 +74,7 @@ homebrew_cask_apps:
   - handbrake
   - irccloud
   - iterm2
+  - java
   - julia
   - launchcontrol
   - macdown
