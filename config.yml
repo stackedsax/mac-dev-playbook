@@ -25,6 +25,7 @@ dotfiles_files:
 homebrew_installed_packages:
   - bash
   - bash-completion@2
+  - bash-git-prompt
   - bat
   - cgoban
   - dust
@@ -47,7 +48,6 @@ homebrew_installed_packages:
   - ripgrep
   - rsync
   - tldr
-  - todoist
   - watch
   - wget
   - wtf
@@ -85,11 +85,13 @@ homebrew_cask_apps:
   - slack
   - sonos
   - spotify
+  - stea
   - sublime-text
   - vcv-rack
   - visual-studio-code
   - vlc
   - whatsapp
+  - zenith
   - zoom
 
 # See `geerlingguy.mas` role documentation for usage instructions.
@@ -99,6 +101,11 @@ mas_installed_apps:
   - { id: 682658836, name: "GarageBand" }
   - { id: 409035833, name: "iReal Pro" }
   - { id: 634148309, name: "Logic Pro" }
+  - { id: 585829637, name: "Todoist" }
+  - { id: 1432731683, name: "Adblock Plus for Safari ABP" }
+  - { id: 784801555, name: "Microsoft OneNote" }
+  
+
 mas_email: ""
 mas_password: ""
 
