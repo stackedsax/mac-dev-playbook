@@ -48,7 +48,6 @@ homebrew_installed_packages:
   - ripgrep
   - rsync
   - tldr
-  - todoist
   - watch
   - wget
   - wtf
@@ -105,6 +104,9 @@ mas_installed_apps:
   - { id: 634148309, name: "Logic Pro" }
   - { id: 784801555, name: "Microsoft OneNote" }
   - { id: 585829637, name: "Todoist" }
+  - { id: 585829637, name: "Todoist" }
+  - { id: 1432731683, name: "Adblock Plus for Safari ABP" }
+  - { id: 784801555, name: "Microsoft OneNote" }
   
 
 mas_email: ""
