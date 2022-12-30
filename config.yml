@@ -96,14 +96,14 @@ homebrew_cask_apps:
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
+  - { id: 1432731683, name: "Adblock Plus for Safari ABP" }
   - { id: 722444976, name: "Anytune" }
   - { id: 424389933, name: "Final Cut Pro" }
   - { id: 682658836, name: "GarageBand" }
   - { id: 409035833, name: "iReal Pro" }
   - { id: 634148309, name: "Logic Pro" }
-  - { id: 585829637, name: "Todoist" }
-  - { id: 1432731683, name: "Adblock Plus for Safari ABP" }
   - { id: 784801555, name: "Microsoft OneNote" }
+  - { id: 585829637, name: "Todoist" }
   
 
 mas_email: ""
