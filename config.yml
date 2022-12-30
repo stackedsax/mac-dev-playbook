@@ -107,6 +107,7 @@ mas_installed_apps:
   - { id: 585829637, name: "Todoist" }
   - { id: 1432731683, name: "Adblock Plus for Safari ABP" }
   - { id: 784801555, name: "Microsoft OneNote" }
+  - { id: 585829637, name: "Todoist" }
   
 
 mas_email: ""
