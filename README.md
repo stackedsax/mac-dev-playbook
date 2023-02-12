@@ -9,6 +9,7 @@ This playbook installs and configures most of the software I use on my Mac for w
 ## Installation
 
   1. Ensure Apple's command line tools are installed (`xcode-select --install` to launch the installer).
+  1. Install Rosetta (mainly for VCV)
   2. [Install Ansible](https://docs.ansible.com/ansible/latest/installation_guide/index.html):
 
      1. Run the following command to add Python 3 to your $PATH: `export PATH="$HOME/Library/Python/3.9/bin:/opt/homebrew/bin:$PATH"`
