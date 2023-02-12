@@ -57,16 +57,17 @@ homebrew_taps:
   - homebrew/cask
   - homebrew/autoupdate
   - homebrew/cask-drivers
+  - homebrew/cask-versions
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - 1password
+  - 1password7
   - ableton-live-suite
+  - betterdisplay
   - brave-browser
   - cheatsheet
   - coconutbattery
   - discord
-  - gitkraken
   - gitup
   - google-chrome
   - google-cloud-sdk
@@ -75,8 +76,6 @@ homebrew_cask_apps:
   - iterm2
   - julia
   - launchcontrol
-  - macdown
-  - nativedisplaybrightness
   - obs
   - plex
   - rectangle
@@ -85,7 +84,7 @@ homebrew_cask_apps:
   - slack
   - sonos
   - spotify
-  - stea
+  - steam
   - sublime-text
   - vcv-rack
   - visual-studio-code
@@ -104,11 +103,7 @@ mas_installed_apps:
   - { id: 634148309, name: "Logic Pro" }
   - { id: 784801555, name: "Microsoft OneNote" }
   - { id: 585829637, name: "Todoist" }
-  - { id: 585829637, name: "Todoist" }
-  - { id: 1432731683, name: "Adblock Plus for Safari ABP" }
-  - { id: 784801555, name: "Microsoft OneNote" }
-  - { id: 585829637, name: "Todoist" }
-  
+
 
 mas_email: ""
 mas_password: ""
