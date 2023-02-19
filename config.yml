@@ -38,19 +38,25 @@ homebrew_installed_packages:
   - htop
   - hub
   - ipython
+  - jenv
   - jupyterlab
   - k9s
   - kind
   - nano
+  - nanorc
   - numpy
   - pyenv
   - pipenv
   - ripgrep
   - rsync
+  - sdkman-cli
+  - starship
+  - thefuck
   - tldr
   - watch
   - wget
   - wtf
+  - zenith
 
 homebrew_taps:
   - homebrew/core
@@ -58,6 +64,7 @@ homebrew_taps:
   - homebrew/autoupdate
   - homebrew/cask-drivers
   - homebrew/cask-versions
+  - sdkman/tap
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
@@ -90,7 +97,6 @@ homebrew_cask_apps:
   - visual-studio-code
   - vlc
   - whatsapp
-  - zenith
   - zoom
 
 # See `geerlingguy.mas` role documentation for usage instructions.
@@ -127,11 +133,6 @@ npm_packages: []
   # - name: webpack
   #   state: present # present/absent/latest, default: present
   #   version: "^2.6" # default: N/A
-pip_packages:
-  # - name: pipsi
-  # - name: pygments
-  #   state: present # present/absent/latest, default: present
-  #   version: "0.16.3" # default: N/A
 
 # Glob pattern to ansible task files to run after all other tasks are finished.
 post_provision_tasks: []
